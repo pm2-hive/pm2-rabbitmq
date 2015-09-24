@@ -22,6 +22,24 @@ $ npm install pm2 -g
 $ pm2 install pm2-rabbitmq
 ```
 
+## Config 
+
+The default connection details are : 
+"username": "guest",
+"pass": "guest",
+"hostname": "localhost:15672",
+"protocol": "http"
+  
+guest/guest is a user created by default when installing RabbitMQ but you can change this to any other admin user  
+
+To modify the config values you can use : 
+```bash
+pm2 set pm2-rabbitmq:username  myuser
+pm2 set pm2-rabbitmq:pass      mypass
+pm2 set pm2-rabbitmq:hostname  a.b.c.d:port
+pm2 set pm2-rabbitmq:protocol  https
+```
+
 ## Uninstall
 
 ```bash
