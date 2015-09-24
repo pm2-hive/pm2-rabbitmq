@@ -9,7 +9,7 @@ pmx.initModule({
   widget: {
 
     // Logo displayed
-    logo: 'https://upload.wikimedia.org/wikipedia/en/9/99/RabbitMQLogo.png',
+    logo: 'https://cloud.google.com/solutions/rabbitmq/images/rabbitmq_logo.png',
 
     // Module colors
     // 0 = main element
@@ -31,7 +31,7 @@ pmx.initModule({
       meta: true,
 
       // Custom metrics to put in BIG
-      main_probes: ['RabbitMQ Version']
+      main_probes: ['Queues', 'Connections', 'Consumers', 'Total Messages', 'Publish Rate/sec', 'Deliver Rate/sec']
     }
 
   }

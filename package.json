@@ -5,7 +5,8 @@
   "main": "app.js",
   "dependencies": {
     "pmx" : "*",
-    "amqp-stats": "0.x"
+    "amqp-stats": "0.x",
+    "dotty": "0.0.2"
   },
   "repository": {
     "type": "git",
