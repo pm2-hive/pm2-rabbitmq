@@ -38,6 +38,6 @@ pmx.initModule({
 
 }, function (err, conf) {
 
-  // Build RabbitMQ connection and init metrics refresh loop
+  // Init metrics refresh loop
   rabbitmqStats.init(conf);
 });
