@@ -5,12 +5,14 @@ RabbitMQ module for Keymetrics
 
 PM2 module to monitor key RabbitMQ server metrics:
 
-* 
+* # of Connections / Queues / Channels / Consumers
+* # of Total messages / Ready messages / Unacknowledged messages
+* Publish Rate / Deliver Rate
 
 ## Requirements
 
-This module requires a RabbitMQ install (tested against v3.5.4). 
-You also need to enable the [RabbitMQ management plugin enabled](https://www.rabbitmq.com/management.html)
+This module requires a RabbitMQ install (tested against v3.5.4).  
+You also need to enable the [RabbitMQ management plugin](https://www.rabbitmq.com/management.html)
 
 ## Install
 
