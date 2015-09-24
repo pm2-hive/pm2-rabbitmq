@@ -5,7 +5,7 @@ RabbitMQ module for Keymetrics
 
 PM2 module to monitor key RabbitMQ server metrics:
 
-* # of Connections / Queues / Channels / Consumers
+* # of Connections / Queues / Channels / Consumers / Exchanges
 * # of Total messages / Ready messages / Unacknowledged messages
 * Publish Rate / Deliver Rate
 
