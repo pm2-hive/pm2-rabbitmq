@@ -1,0 +1,27 @@
+{
+  "name": "pm2-rabbitmq",
+  "version": "0.0.1",
+  "description": "PM2 RabbitMQ Module",
+  "main": "app.js",
+  "dependencies": {
+    "pmx" : "*",
+    "amqp-stats": "0.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pm2-hive/pm2-rabbitmq.git"
+  },
+  "config" : {
+    "username": "guest",
+    "pass": "guest",
+    "hostname": "localhost:15672",
+    "protocol": "http"
+  },
+  "apps" : [{
+    "merge_logs"         : true,
+    "max_memory_restart" : "200M",
+    "script"             : "app.js"
+  }],
+  "author": "Keymetrics Inc.",
+  "license": "MIT"
+}
