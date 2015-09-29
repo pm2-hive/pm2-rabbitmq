@@ -1,11 +1,11 @@
 {
   "name": "pm2-rabbitmq",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "PM2 RabbitMQ Module",
   "main": "app.js",
   "dependencies": {
-    "pmx" : "*",
-    "amqp-stats": "0.x",
+    "pmx" : ">=0.5.5",
+    "amqp-stats": "0.0.14",
     "dotty": "0.0.2"
   },
   "repository": {

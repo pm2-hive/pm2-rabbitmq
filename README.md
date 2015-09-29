@@ -1,6 +1,8 @@
 # pm2-rabbitmq
 RabbitMQ module for Keymetrics
 
+![pm2-rabbitmq screenshot](https://raw.githubusercontent.com/pm2-hive/pm2-rabbitmq/master/pm2-rabbitmq.jpg)
+
 ## Description
 
 PM2 module to monitor key RabbitMQ server metrics:
