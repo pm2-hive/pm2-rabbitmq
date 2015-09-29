@@ -11,7 +11,7 @@ PM2 module to monitor key RabbitMQ server metrics:
 
 ## Requirements
 
-This module requires a RabbitMQ install (tested against v3.5.4).  
+This module requires a RabbitMQ install (tested against v3.5.4).
 You also need to enable the [RabbitMQ management plugin](https://www.rabbitmq.com/management.html)
 
 ## Install
@@ -22,20 +22,20 @@ $ npm install pm2 -g
 $ pm2 install pm2-rabbitmq
 ```
 
-## Config 
+## Config
 
-The default connection details are :  
-"username": "guest"  
-"pass": "guest"  
-"hostname": "localhost:15672"  
-"protocol": "http"  
-  
-guest/guest is a user created by default when installing RabbitMQ but you can change this to any other admin user  
+The default connection details are :
+"username": "guest"
+"password": "guest"
+"hostname": "localhost:15672"
+"protocol": "http"
 
-To modify the config values you can use the commands: 
+guest/guest is a user created by default when installing RabbitMQ but you can change this to any other admin user
+
+To modify the config values you can use the commands:
 ```bash
 $ pm2 set pm2-rabbitmq:username  myuser
-$ pm2 set pm2-rabbitmq:pass      mypass
+$ pm2 set pm2-rabbitmq:password  mypass
 $ pm2 set pm2-rabbitmq:hostname  a.b.c.d:port
 $ pm2 set pm2-rabbitmq:protocol  https
 ```
