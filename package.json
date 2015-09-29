@@ -14,7 +14,7 @@
   },
   "config" : {
     "username": "guest",
-    "pass": "guest",
+    "password": "guest",
     "hostname": "localhost:15672",
     "protocol": "http"
   },
